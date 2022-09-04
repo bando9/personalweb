@@ -1,0 +1,39 @@
+<!DOCTYPE html> 
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Perpustakaan Mini</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body> 
+    <header>
+      <h1>Perpustakaan Mini</h1>
+
+      <form action="#" id="new-book-form">
+        <input type="text" id="new-title-input" placeholder="Buku apa yang mau dibaca ?" />
+        <input type="text" id="new-author-input" placeholder="Siapa penulisnya ?" />
+        <input type="number" id="new-year-input" min="1000" max="3000"/>
+        <input type="submit" id="new-task-submit" value="Tambah Buku" />
+      </form>
+    </header>
+
+    <main>
+      <section class="task-list">
+        <h2>Sedang Dibaca</h2>
+        <div id="reading">                  
+        </div>
+      </section>
+
+      <section class="task-list">
+        <h2>Buku Telah Dibaca</h2>
+        <div id="done-read">
+        </div>
+      </section>
+    </main>
+  </body>
+
+  <script src="script.js"></script>
+</html>
