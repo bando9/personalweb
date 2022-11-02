@@ -3,6 +3,4 @@ repositori untuk belajar part 1
 
 lihat hasilnya disini :
 
-https://belajar-1a.vercel.app/
-
-https://rak-buku-submission.vercel.app/
+**[Perpustakaan mini](https://belajar-1a.vercel.app/)**
